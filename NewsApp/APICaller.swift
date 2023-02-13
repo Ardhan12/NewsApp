@@ -18,7 +18,7 @@ final class APICaller {
     public func getTopStories(completion: @escaping (Result<[Article], Error>) -> Void) {
         guard let url = Constants.topheadlineURL else { return }
         
-        let task = URLSession.shared.dataTask(with: url) { data, response, error in
+        let task = URLSession.shared.dataTask(with: url) { data, _, error in
             if let error = error {
                 completion(.failure(error))
             }
@@ -28,7 +28,7 @@ final class APICaller {
                     
                     print("Article: \(result.articles.count)")
                     for article in result.articles {
-                        print(article.title)
+                        print("title: \(article.title)")
                     }
                     
                     completion(.success(result.articles))
