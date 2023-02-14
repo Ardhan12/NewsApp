@@ -15,6 +15,7 @@
 		BE4F334829936474004DBE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE4F334629936474004DBE53 /* LaunchScreen.storyboard */; };
 		BE4F335029936485004DBE53 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F334F29936485004DBE53 /* APICaller.swift */; };
 		BE4F33522998B872004DBE53 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F33512998B872004DBE53 /* NewsTableViewCell.swift */; };
+		BE4F3354299B8431004DBE53 /* FaceIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F3353299B8431004DBE53 /* FaceIDViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		BE4F334929936474004DBE53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE4F334F29936485004DBE53 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		BE4F33512998B872004DBE53 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		BE4F3353299B8431004DBE53 /* FaceIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				BE4F334129936473004DBE53 /* NewsApp.xcdatamodeld */,
 				BE4F334F29936485004DBE53 /* APICaller.swift */,
 				BE4F33512998B872004DBE53 /* NewsTableViewCell.swift */,
+				BE4F3353299B8431004DBE53 /* FaceIDViewController.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				BE4F33522998B872004DBE53 /* NewsTableViewCell.swift in Sources */,
 				BE4F334329936473004DBE53 /* NewsApp.xcdatamodeld in Sources */,
 				BE4F335029936485004DBE53 /* APICaller.swift in Sources */,
+				BE4F3354299B8431004DBE53 /* FaceIDViewController.swift in Sources */,
 				BE4F333B29936473004DBE53 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +298,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -321,6 +326,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
