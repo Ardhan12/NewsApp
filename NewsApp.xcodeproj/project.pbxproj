@@ -16,6 +16,7 @@
 		BE4F335029936485004DBE53 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F334F29936485004DBE53 /* APICaller.swift */; };
 		BE4F33522998B872004DBE53 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F33512998B872004DBE53 /* NewsTableViewCell.swift */; };
 		BE4F3354299B8431004DBE53 /* FaceIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F3353299B8431004DBE53 /* FaceIDViewController.swift */; };
+		BE4F3356299B9BCF004DBE53 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE4F3355299B9BCF004DBE53 /* FaceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		BE4F334F29936485004DBE53 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		BE4F33512998B872004DBE53 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		BE4F3353299B8431004DBE53 /* FaceIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceIDViewController.swift; sourceTree = "<group>"; };
+		BE4F3355299B9BCF004DBE53 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				BE4F334F29936485004DBE53 /* APICaller.swift */,
 				BE4F33512998B872004DBE53 /* NewsTableViewCell.swift */,
 				BE4F3353299B8431004DBE53 /* FaceIDViewController.swift */,
+				BE4F3355299B9BCF004DBE53 /* FaceViewController.swift */,
 			);
 			path = NewsApp;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE4F333D29936473004DBE53 /* ViewController.swift in Sources */,
+				BE4F3356299B9BCF004DBE53 /* FaceViewController.swift in Sources */,
 				BE4F333929936473004DBE53 /* AppDelegate.swift in Sources */,
 				BE4F33522998B872004DBE53 /* NewsTableViewCell.swift in Sources */,
 				BE4F334329936473004DBE53 /* NewsApp.xcdatamodeld in Sources */,
