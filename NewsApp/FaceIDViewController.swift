@@ -20,8 +20,13 @@ class FaceIDViewController: UIViewController {
     
     let button: UIButton = {
         let button = UIButton(type: .system)
+//        button.frame.size = CGSize(width: 250, height: 100)
+//        button.layer.backgroundColor = .systemRed
+        button.backgroundColor = .systemBlue
+        button.layer.cornerRadius = 8
+        button.layer.masksToBounds = true
         button.setTitle("News App", for: .normal)
-        button.backgroundColor = .systemGreen
+        button.tintColor = .white
         button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button
@@ -71,6 +76,8 @@ class FaceIDViewController: UIViewController {
         
         button.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
         button.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
+        button.widthAnchor.constraint(equalToConstant: 100).isActive = true
+        button.heightAnchor.constraint(equalToConstant: 50).isActive = true
         
         NewsHeader.bottomAnchor.constraint(equalTo: button.topAnchor, constant: -10).isActive = true
         NewsHeader.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
